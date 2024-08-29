@@ -41,12 +41,12 @@
     ```
     git clone https://github.com/sociocom/EDV-ExampleBasedCoding.git
     ```
-    
-    制限に達すると，ダウンロードできなくなるので，モデルについては，LFSは使わず，手動でダウンロードする．
    
-   Huggingfaceのサイトから手動でダウンロードし，src/modelディレクトリ直下に置く．
+   model.pthを，Huggingfaceのサイトから手動でダウンロードし，src/modelディレクトリ直下に置く．
    
    https://huggingface.co/sociocom/EDV-ExampleBasedCoding
+
+   LFSは制限に達するとダウンロードできなくなるので，モデルについては，LFSは使わず手動でダウンロードする．
 
    ~~model.pthファイルがクローン後に正しく取得されていない場合，クローン後に以下のコマンドで手動で取得する．~~
    
