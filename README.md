@@ -44,7 +44,7 @@
     
     制限に達すると，ダウンロードできなくなるので，モデルについては，LFSは使わず，手動でダウンロードする．
    
-   Huggingfaceのサイトから手動でダウンロードする．
+   Huggingfaceのサイトから手動でダウンロードし，src/modelディレクトリ直下に置く．
    
    https://huggingface.co/sociocom/EDV-ExampleBasedCoding
 
