@@ -41,22 +41,26 @@
     ```
     git clone https://github.com/sociocom/EDV-ExampleBasedCoding.git
     ```
-
-    ~~model.pthファイルがクローン後に正しく取得されていない場合，クローン後に以下のコマンドで手動で取得する．~~
-   制限に達すると，ダウンロードできなくなるのでLFSは使わず，手動でダウンロードする．
-    ```
-    git lfs pull
-    ```
-
-   ~~lfsについては，データ容量の制限に達している場合，以下のようなエラーが出る．~~
-   ```
-   batch response: This repository is over its data quota. Account responsible for LFS bandwidth should purchase more data packs to restore access.                                
-   error: failed to fetch some objects from 'https://github.com/sociocom/EDV-ExampleBasedCoding.git/info/lfs'
-   ```
-
+    
+    制限に達すると，ダウンロードできなくなるので，モデルについては，LFSは使わず，手動でダウンロードする．
+   
    Huggingfaceのサイトから手動でダウンロードする．
    
    https://huggingface.co/sociocom/EDV-ExampleBasedCoding
+
+   ~~model.pthファイルがクローン後に正しく取得されていない場合，クローン後に以下のコマンドで手動で取得する．~~
+   
+    ~~```~~
+    git lfs pull
+    ~~```~~
+
+   ~~lfsについては，データ容量の制限に達している場合，以下のようなエラーが出る．~~
+   ~~```~~
+   batch response: This repository is over its data quota. Account responsible for LFS bandwidth should purchase more data packs to restore access.                                
+   error: failed to fetch some objects from 'https://github.com/sociocom/EDV-ExampleBasedCoding.git/info/lfs'
+   ~~```~~
+
+
     
 3. Rye を導入した後，必要なパッケージのインストール
     ```
