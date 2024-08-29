@@ -10,4 +10,4 @@ wheels/
 .venv
 
 # model
-model
+model.pth
