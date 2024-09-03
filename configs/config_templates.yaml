@@ -1,4 +1,4 @@
-input: /home/is/tomohiro-ni/project/SIP/experiment/20240808_EVEampeleBasedCoding/data/DISEASE_test.xlsx
+input: input.xlsx
 output: output.xlsx
 id: ID
 source: 出現形
